@@ -84,6 +84,7 @@ body {
 @media only screen and (min-width: 1026px) {
   .wrap {
     width: 800px;
+    padding-bottom: 1.5em;
   }
   #Header{
     display: flex;
