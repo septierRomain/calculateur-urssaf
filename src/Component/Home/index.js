@@ -1,14 +1,39 @@
 import React from 'react';
 import Banner from '../Banner';
 
+import Arrow from '../../assets/grey arrow.svg'
+
 function Home() {
   return(
     <div id="welcome" className='wrap'>
       <Banner />
 
       <div id="welcome_banner">
-        <h1>Bonjour et bienvenue sur notre simulateur de rémunération pour les présidents de SASU</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet in possimus debitis minima saepe recusandae explicabo repudiandae earum cum tenetur? Ad maiores fuga harum quibusdam culpa sint omnis provident doloremque?</p>
+      <p>Vous créez votre entreprise et vous vous interrogez sur le montant des cotisations sociales liées à vos rémunérations de dirigeant ?
+        Ce simulateur, dédié aux assimilés salariés, permet de déterminer les cotisations sociales dues à partir d'une rémunération nette.
+        A l'inverse, à partir de votre rémunération brute, vous connaîtrez la rémunération nette à percevoir.</p>
+        <p>
+          Qui sont les assimilés salariés ?
+        </p>
+            <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
+              Dirigeant de SAS
+            </ul>
+            <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
+              Dirigeant de SASU
+            </ul>
+            <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
+              Gérant minoritaire ou égalitaire de SARL
+            </ul>
+            <ul><img src={Arrow} alt="Fleche verte" style={{transform: 'rotate(180deg)', paddingLeft: '0.5em'}} />
+              Gérant non associé d'EURL
+            </ul>
+            <ul>
+              ...
+            </ul>
+        <p>
+        Peut être ne vous retrouvez vous pas dans cette liste ? Vous trouverez le simulateur dédié aux travailleurs non salariés&nbsp;
+        <a href='https://simulateur-tns.netlify.app/' >ici</a></p>
+        <p>Un doute sur votre statut social ? Consultez les experts de Dougs !</p>
         <p>C’est parti !</p>
       </div>
 
