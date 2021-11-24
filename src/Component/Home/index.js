@@ -9,6 +9,7 @@ function Home() {
       <Banner />
 
       <div id="welcome_banner">
+      <h1>Bonjour et bienvenue sur notre simulateur de rémunération pour les assimilés salariés</h1>
       <p>Vous créez votre entreprise et vous vous interrogez sur le montant des cotisations sociales liées à vos rémunérations de dirigeant ?
         Ce simulateur, dédié aux assimilés salariés, permet de déterminer les cotisations sociales dues à partir d'une rémunération nette.
         A l'inverse, à partir de votre rémunération brute, vous connaîtrez la rémunération nette à percevoir.</p>
